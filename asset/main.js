@@ -1,4 +1,4 @@
-const contactEmail = atob("aW5mb0BjeWJyb3NsYWJzLmNvbQ==");
+const contactEmail = atob("aW5mb0BjdGJmLnBhcnRuZXJz");
 const emailLinks = document.querySelectorAll('[data-contact-email]');
 emailLinks.forEach(link => {
     link.onmouseover = link.ontouchstart = () => link.setAttribute('href', 'mailto:'+contactEmail);
@@ -8,7 +8,7 @@ emailTexts.forEach(link => {
     link.textContent = contactEmail;
 });
 
-const contactPhone = atob("KzQyMCA3NzcgMzQ0IDQ4Nw==");
+const contactPhone = atob("");
 const phoneLinks = document.querySelectorAll('[data-contact-phone]');
 phoneLinks.forEach(link => {
     link.onmouseover = link.ontouchstart = () => link.setAttribute('href', 'tel:'+contactPhone.replace(/ /g, ''));

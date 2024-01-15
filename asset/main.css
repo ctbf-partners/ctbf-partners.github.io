@@ -25,6 +25,15 @@ h3 {
   color: #383838;
 }
 
+h3 a, h3 a:visited {
+  color: #383838;
+  text-decoration: none;
+}
+h3 a:hover {
+  color: #383838;
+  text-decoration: underline;
+}
+
 a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
